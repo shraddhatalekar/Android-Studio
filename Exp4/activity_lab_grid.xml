@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_margin="10dp"/>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="4"
+        android:padding="10dp">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/lab1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lab1"/>
+
+            <TextView
+                android:text="Programming Lab"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/lab2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lab2"/>
+
+            <TextView
+                android:text="Networking Lab"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/lab3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lab3"/>
+
+            <TextView
+                android:text="Database Lab"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/lab4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lab4"/>
+
+            <TextView
+                android:text="Cloud computong"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/lab5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lab5"/>
+
+            <TextView
+                android:text="advanced java"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/lab6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lab6"/>
+
+            <TextView
+                android:text="Database Lab"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/lab7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lab7"/>
+
+            <TextView
+                android:text="data structure Lab"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/lab8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lab8"/>
+
+            <TextView
+                android:text="Operating System lab"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/lab9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lab9"/>
+
+            <TextView
+                android:text="Python programming Lab"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/lab10"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lab10"/>
+
+            <TextView
+                android:text="C lang Lab"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/lab11"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lab11"/>
+
+            <TextView
+                android:text="C++ Lab"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/lab12"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lab12"/>
+
+            <TextView
+                android:text="AI lab"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </GridLayout>
+
+</LinearLayout>
